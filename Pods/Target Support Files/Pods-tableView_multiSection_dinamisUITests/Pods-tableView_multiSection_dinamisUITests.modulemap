@@ -1,0 +1,6 @@
+framework module Pods_tableView_multiSection_dinamisUITests {
+  umbrella header "Pods-tableView_multiSection_dinamisUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

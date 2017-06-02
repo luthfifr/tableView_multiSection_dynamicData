@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.0.1)
+  - Gloss (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Gloss
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Gloss: 014789e9e69ca18f127eacca999f4c9b0bff6d58
+
+PODFILE CHECKSUM: 26609d7eae1ac4a9c8840f1c58158eca82602b67
+
+COCOAPODS: 1.0.1

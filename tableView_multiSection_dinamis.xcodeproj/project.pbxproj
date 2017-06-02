@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36E71E553BD64D30C81D402E /* Pods_tableView_multiSection_dinamis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE22CB768D46A87EB23734BF /* Pods_tableView_multiSection_dinamis.framework */; };
+		3A68EFB61CC34227D7560779 /* Pods_tableView_multiSection_dinamisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9BB93F303BD63B6A470E52 /* Pods_tableView_multiSection_dinamisUITests.framework */; };
+		9D586CC4E39BCC74269F1B19 /* Pods_tableView_multiSection_dinamisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF289B3EA13189F6B50BAA1 /* Pods_tableView_multiSection_dinamisTests.framework */; };
+		CF60D81A1ED1F5F7000E2BBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60D8191ED1F5F7000E2BBE /* AppDelegate.swift */; };
+		CF60D81C1ED1F5F7000E2BBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60D81B1ED1F5F7000E2BBE /* ViewController.swift */; };
+		CF60D81F1ED1F5F7000E2BBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF60D81D1ED1F5F7000E2BBE /* Main.storyboard */; };
+		CF60D8211ED1F5F7000E2BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF60D8201ED1F5F7000E2BBE /* Assets.xcassets */; };
+		CF60D8241ED1F5F7000E2BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF60D8221ED1F5F7000E2BBE /* LaunchScreen.storyboard */; };
+		CF60D82F1ED1F5F7000E2BBE /* tableView_multiSection_dinamisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60D82E1ED1F5F7000E2BBE /* tableView_multiSection_dinamisTests.swift */; };
+		CF60D83A1ED1F5F7000E2BBE /* tableView_multiSection_dinamisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60D8391ED1F5F7000E2BBE /* tableView_multiSection_dinamisUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF60D82B1ED1F5F7000E2BBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF60D80E1ED1F5F7000E2BBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF60D8151ED1F5F7000E2BBE;
+			remoteInfo = tableView_multiSection_dinamis;
+		};
+		CF60D8361ED1F5F7000E2BBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF60D80E1ED1F5F7000E2BBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF60D8151ED1F5F7000E2BBE;
+			remoteInfo = tableView_multiSection_dinamis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69AE0037B76177D99A94A6A2 /* Pods-tableView_multiSection_dinamisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableView_multiSection_dinamisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tableView_multiSection_dinamisUITests/Pods-tableView_multiSection_dinamisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7801AA421D7D1B8107C01E34 /* Pods-tableView_multiSection_dinamis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableView_multiSection_dinamis.release.xcconfig"; path = "Pods/Target Support Files/Pods-tableView_multiSection_dinamis/Pods-tableView_multiSection_dinamis.release.xcconfig"; sourceTree = "<group>"; };
+		7B9BB93F303BD63B6A470E52 /* Pods_tableView_multiSection_dinamisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tableView_multiSection_dinamisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A26AD58180BF74784E51064 /* Pods-tableView_multiSection_dinamisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableView_multiSection_dinamisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tableView_multiSection_dinamisUITests/Pods-tableView_multiSection_dinamisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D4D3B6CED10F634A868C1CD /* Pods-tableView_multiSection_dinamis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableView_multiSection_dinamis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tableView_multiSection_dinamis/Pods-tableView_multiSection_dinamis.debug.xcconfig"; sourceTree = "<group>"; };
+		AAF289B3EA13189F6B50BAA1 /* Pods_tableView_multiSection_dinamisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tableView_multiSection_dinamisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7AA60E94C410D83A9753F3A /* Pods-tableView_multiSection_dinamisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableView_multiSection_dinamisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tableView_multiSection_dinamisTests/Pods-tableView_multiSection_dinamisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE22CB768D46A87EB23734BF /* Pods_tableView_multiSection_dinamis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tableView_multiSection_dinamis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF60D8161ED1F5F7000E2BBE /* tableView_multiSection_dinamis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableView_multiSection_dinamis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF60D8191ED1F5F7000E2BBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF60D81B1ED1F5F7000E2BBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF60D81E1ED1F5F7000E2BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF60D8201ED1F5F7000E2BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF60D8231ED1F5F7000E2BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF60D8251ED1F5F7000E2BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF60D82A1ED1F5F7000E2BBE /* tableView_multiSection_dinamisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableView_multiSection_dinamisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF60D82E1ED1F5F7000E2BBE /* tableView_multiSection_dinamisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableView_multiSection_dinamisTests.swift; sourceTree = "<group>"; };
+		CF60D8301ED1F5F7000E2BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF60D8351ED1F5F7000E2BBE /* tableView_multiSection_dinamisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableView_multiSection_dinamisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF60D8391ED1F5F7000E2BBE /* tableView_multiSection_dinamisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableView_multiSection_dinamisUITests.swift; sourceTree = "<group>"; };
+		CF60D83B1ED1F5F7000E2BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0DA355F67795C7909CD5060 /* Pods-tableView_multiSection_dinamisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableView_multiSection_dinamisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tableView_multiSection_dinamisTests/Pods-tableView_multiSection_dinamisTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF60D8131ED1F5F7000E2BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E71E553BD64D30C81D402E /* Pods_tableView_multiSection_dinamis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF60D8271ED1F5F7000E2BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D586CC4E39BCC74269F1B19 /* Pods_tableView_multiSection_dinamisTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF60D8321ED1F5F7000E2BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A68EFB61CC34227D7560779 /* Pods_tableView_multiSection_dinamisUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74E00711BDDF7C67DBF0E77D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D4D3B6CED10F634A868C1CD /* Pods-tableView_multiSection_dinamis.debug.xcconfig */,
+				7801AA421D7D1B8107C01E34 /* Pods-tableView_multiSection_dinamis.release.xcconfig */,
+				C7AA60E94C410D83A9753F3A /* Pods-tableView_multiSection_dinamisTests.debug.xcconfig */,
+				F0DA355F67795C7909CD5060 /* Pods-tableView_multiSection_dinamisTests.release.xcconfig */,
+				9A26AD58180BF74784E51064 /* Pods-tableView_multiSection_dinamisUITests.debug.xcconfig */,
+				69AE0037B76177D99A94A6A2 /* Pods-tableView_multiSection_dinamisUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF60D80D1ED1F5F7000E2BBE = {
+			isa = PBXGroup;
+			children = (
+				CF60D8181ED1F5F7000E2BBE /* tableView_multiSection_dinamis */,
+				CF60D82D1ED1F5F7000E2BBE /* tableView_multiSection_dinamisTests */,
+				CF60D8381ED1F5F7000E2BBE /* tableView_multiSection_dinamisUITests */,
+				CF60D8171ED1F5F7000E2BBE /* Products */,
+				74E00711BDDF7C67DBF0E77D /* Pods */,
+				F926A1525AD778E15CB2026B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF60D8171ED1F5F7000E2BBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF60D8161ED1F5F7000E2BBE /* tableView_multiSection_dinamis.app */,
+				CF60D82A1ED1F5F7000E2BBE /* tableView_multiSection_dinamisTests.xctest */,
+				CF60D8351ED1F5F7000E2BBE /* tableView_multiSection_dinamisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF60D8181ED1F5F7000E2BBE /* tableView_multiSection_dinamis */ = {
+			isa = PBXGroup;
+			children = (
+				CF60D8191ED1F5F7000E2BBE /* AppDelegate.swift */,
+				CF60D81B1ED1F5F7000E2BBE /* ViewController.swift */,
+				CF60D81D1ED1F5F7000E2BBE /* Main.storyboard */,
+				CF60D8201ED1F5F7000E2BBE /* Assets.xcassets */,
+				CF60D8221ED1F5F7000E2BBE /* LaunchScreen.storyboard */,
+				CF60D8251ED1F5F7000E2BBE /* Info.plist */,
+			);
+			path = tableView_multiSection_dinamis;
+			sourceTree = "<group>";
+		};
+		CF60D82D1ED1F5F7000E2BBE /* tableView_multiSection_dinamisTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF60D82E1ED1F5F7000E2BBE /* tableView_multiSection_dinamisTests.swift */,
+				CF60D8301ED1F5F7000E2BBE /* Info.plist */,
+			);
+			path = tableView_multiSection_dinamisTests;
+			sourceTree = "<group>";
+		};
+		CF60D8381ED1F5F7000E2BBE /* tableView_multiSection_dinamisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF60D8391ED1F5F7000E2BBE /* tableView_multiSection_dinamisUITests.swift */,
+				CF60D83B1ED1F5F7000E2BBE /* Info.plist */,
+			);
+			path = tableView_multiSection_dinamisUITests;
+			sourceTree = "<group>";
+		};
+		F926A1525AD778E15CB2026B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE22CB768D46A87EB23734BF /* Pods_tableView_multiSection_dinamis.framework */,
+				AAF289B3EA13189F6B50BAA1 /* Pods_tableView_multiSection_dinamisTests.framework */,
+				7B9BB93F303BD63B6A470E52 /* Pods_tableView_multiSection_dinamisUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF60D8151ED1F5F7000E2BBE /* tableView_multiSection_dinamis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF60D83E1ED1F5F7000E2BBE /* Build configuration list for PBXNativeTarget "tableView_multiSection_dinamis" */;
+			buildPhases = (
+				FFEFBEF8EBAEC258830EA941 /* [CP] Check Pods Manifest.lock */,
+				CF60D8121ED1F5F7000E2BBE /* Sources */,
+				CF60D8131ED1F5F7000E2BBE /* Frameworks */,
+				CF60D8141ED1F5F7000E2BBE /* Resources */,
+				A78E4AC66D60B05E3D9E695A /* [CP] Embed Pods Frameworks */,
+				571B053AE4138BA275B349F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tableView_multiSection_dinamis;
+			productName = tableView_multiSection_dinamis;
+			productReference = CF60D8161ED1F5F7000E2BBE /* tableView_multiSection_dinamis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF60D8291ED1F5F7000E2BBE /* tableView_multiSection_dinamisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF60D8411ED1F5F7000E2BBE /* Build configuration list for PBXNativeTarget "tableView_multiSection_dinamisTests" */;
+			buildPhases = (
+				9D09F8B5FAE2560289B30AA8 /* [CP] Check Pods Manifest.lock */,
+				CF60D8261ED1F5F7000E2BBE /* Sources */,
+				CF60D8271ED1F5F7000E2BBE /* Frameworks */,
+				CF60D8281ED1F5F7000E2BBE /* Resources */,
+				04142686A64DE2AC620B88D1 /* [CP] Embed Pods Frameworks */,
+				C2EAE3ECF702211872FA99B8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF60D82C1ED1F5F7000E2BBE /* PBXTargetDependency */,
+			);
+			name = tableView_multiSection_dinamisTests;
+			productName = tableView_multiSection_dinamisTests;
+			productReference = CF60D82A1ED1F5F7000E2BBE /* tableView_multiSection_dinamisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF60D8341ED1F5F7000E2BBE /* tableView_multiSection_dinamisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF60D8441ED1F5F7000E2BBE /* Build configuration list for PBXNativeTarget "tableView_multiSection_dinamisUITests" */;
+			buildPhases = (
+				9DA171D95BACC64FF954F696 /* [CP] Check Pods Manifest.lock */,
+				CF60D8311ED1F5F7000E2BBE /* Sources */,
+				CF60D8321ED1F5F7000E2BBE /* Frameworks */,
+				CF60D8331ED1F5F7000E2BBE /* Resources */,
+				24151E1A84907581952109E6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF60D8371ED1F5F7000E2BBE /* PBXTargetDependency */,
+			);
+			name = tableView_multiSection_dinamisUITests;
+			productName = tableView_multiSection_dinamisUITests;
+			productReference = CF60D8351ED1F5F7000E2BBE /* tableView_multiSection_dinamisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF60D80E1ED1F5F7000E2BBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luthfi Fathur Rahman";
+				TargetAttributes = {
+					CF60D8151ED1F5F7000E2BBE = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					CF60D8291ED1F5F7000E2BBE = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF60D8151ED1F5F7000E2BBE;
+					};
+					CF60D8341ED1F5F7000E2BBE = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF60D8151ED1F5F7000E2BBE;
+					};
+				};
+			};
+			buildConfigurationList = CF60D8111ED1F5F7000E2BBE /* Build configuration list for PBXProject "tableView_multiSection_dinamis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF60D80D1ED1F5F7000E2BBE;
+			productRefGroup = CF60D8171ED1F5F7000E2BBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF60D8151ED1F5F7000E2BBE /* tableView_multiSection_dinamis */,
+				CF60D8291ED1F5F7000E2BBE /* tableView_multiSection_dinamisTests */,
+				CF60D8341ED1F5F7000E2BBE /* tableView_multiSection_dinamisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF60D8141ED1F5F7000E2BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF60D8241ED1F5F7000E2BBE /* LaunchScreen.storyboard in Resources */,
+				CF60D8211ED1F5F7000E2BBE /* Assets.xcassets in Resources */,
+				CF60D81F1ED1F5F7000E2BBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF60D8281ED1F5F7000E2BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF60D8331ED1F5F7000E2BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04142686A64DE2AC620B88D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tableView_multiSection_dinamisTests/Pods-tableView_multiSection_dinamisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24151E1A84907581952109E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tableView_multiSection_dinamisUITests/Pods-tableView_multiSection_dinamisUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		571B053AE4138BA275B349F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tableView_multiSection_dinamis/Pods-tableView_multiSection_dinamis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D09F8B5FAE2560289B30AA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DA171D95BACC64FF954F696 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A78E4AC66D60B05E3D9E695A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tableView_multiSection_dinamis/Pods-tableView_multiSection_dinamis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2EAE3ECF702211872FA99B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tableView_multiSection_dinamisTests/Pods-tableView_multiSection_dinamisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFEFBEF8EBAEC258830EA941 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF60D8121ED1F5F7000E2BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF60D81C1ED1F5F7000E2BBE /* ViewController.swift in Sources */,
+				CF60D81A1ED1F5F7000E2BBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF60D8261ED1F5F7000E2BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF60D82F1ED1F5F7000E2BBE /* tableView_multiSection_dinamisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF60D8311ED1F5F7000E2BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF60D83A1ED1F5F7000E2BBE /* tableView_multiSection_dinamisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF60D82C1ED1F5F7000E2BBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF60D8151ED1F5F7000E2BBE /* tableView_multiSection_dinamis */;
+			targetProxy = CF60D82B1ED1F5F7000E2BBE /* PBXContainerItemProxy */;
+		};
+		CF60D8371ED1F5F7000E2BBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF60D8151ED1F5F7000E2BBE /* tableView_multiSection_dinamis */;
+			targetProxy = CF60D8361ED1F5F7000E2BBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF60D81D1ED1F5F7000E2BBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF60D81E1ED1F5F7000E2BBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF60D8221ED1F5F7000E2BBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF60D8231ED1F5F7000E2BBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF60D83C1ED1F5F7000E2BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF60D83D1ED1F5F7000E2BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF60D83F1ED1F5F7000E2BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D4D3B6CED10F634A868C1CD /* Pods-tableView_multiSection_dinamis.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2L6QV2N95T;
+				INFOPLIST_FILE = tableView_multiSection_dinamis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.tableView-multiSection-dinamis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF60D8401ED1F5F7000E2BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7801AA421D7D1B8107C01E34 /* Pods-tableView_multiSection_dinamis.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2L6QV2N95T;
+				INFOPLIST_FILE = tableView_multiSection_dinamis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.tableView-multiSection-dinamis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CF60D8421ED1F5F7000E2BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7AA60E94C410D83A9753F3A /* Pods-tableView_multiSection_dinamisTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2L6QV2N95T;
+				INFOPLIST_FILE = tableView_multiSection_dinamisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.tableView-multiSection-dinamisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableView_multiSection_dinamis.app/tableView_multiSection_dinamis";
+			};
+			name = Debug;
+		};
+		CF60D8431ED1F5F7000E2BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0DA355F67795C7909CD5060 /* Pods-tableView_multiSection_dinamisTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2L6QV2N95T;
+				INFOPLIST_FILE = tableView_multiSection_dinamisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.tableView-multiSection-dinamisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableView_multiSection_dinamis.app/tableView_multiSection_dinamis";
+			};
+			name = Release;
+		};
+		CF60D8451ED1F5F7000E2BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A26AD58180BF74784E51064 /* Pods-tableView_multiSection_dinamisUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2L6QV2N95T;
+				INFOPLIST_FILE = tableView_multiSection_dinamisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.tableView-multiSection-dinamisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = tableView_multiSection_dinamis;
+			};
+			name = Debug;
+		};
+		CF60D8461ED1F5F7000E2BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69AE0037B76177D99A94A6A2 /* Pods-tableView_multiSection_dinamisUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2L6QV2N95T;
+				INFOPLIST_FILE = tableView_multiSection_dinamisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.tableView-multiSection-dinamisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = tableView_multiSection_dinamis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF60D8111ED1F5F7000E2BBE /* Build configuration list for PBXProject "tableView_multiSection_dinamis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF60D83C1ED1F5F7000E2BBE /* Debug */,
+				CF60D83D1ED1F5F7000E2BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF60D83E1ED1F5F7000E2BBE /* Build configuration list for PBXNativeTarget "tableView_multiSection_dinamis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF60D83F1ED1F5F7000E2BBE /* Debug */,
+				CF60D8401ED1F5F7000E2BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF60D8411ED1F5F7000E2BBE /* Build configuration list for PBXNativeTarget "tableView_multiSection_dinamisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF60D8421ED1F5F7000E2BBE /* Debug */,
+				CF60D8431ED1F5F7000E2BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF60D8441ED1F5F7000E2BBE /* Build configuration list for PBXNativeTarget "tableView_multiSection_dinamisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF60D8451ED1F5F7000E2BBE /* Debug */,
+				CF60D8461ED1F5F7000E2BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF60D80E1ED1F5F7000E2BBE /* Project object */;
+}
