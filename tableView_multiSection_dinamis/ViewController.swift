@@ -91,7 +91,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                     self.sections.append((DaftarProduk?[j].prodCat!)!)
                 }
                 self.sections = self.removeDuplicates(array: self.sections)
-                print("sections = \((DaftarProduk?.endIndex)!)")
+                print("sections = \(self.sections.count)")
                 
                 //lakukan pengulangan sebanyak jumlah isi array sections.
                 for k in 0 ..< self.sections.count{
@@ -110,7 +110,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                     }
                 }
                 
-                print("jumlah items: \(self.items.count)")
+                print("jumlah items: \((DaftarProduk?.endIndex)!)")
                 //print("isi items: \(self.items)")
                 
                 DispatchQueue.main.async(execute: {
